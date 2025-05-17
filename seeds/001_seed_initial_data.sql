@@ -64,18 +64,18 @@ INSERT INTO cliente (nombres, email, contrasena) VALUES
 
 -- Insertar datos en producto
 INSERT INTO producto (nombre, descripcion, precio, stock, idcategoria, imagen) VALUES
-('Anillo de Oro 18k', 'Anillo clásico de oro amarillo de 18 quilates.', 1200.00, 10, 1, 'anillo_oro_18k.jpg'),
-('Collar de Plata', 'Collar elegante de plata esterlina.', 350.00, 15, 2, 'collar_plata.jpg'),
-('Pulsera de Acero', 'Pulsera resistente de acero inoxidable.', 75.90, 25, 3, 'pulsera_acero.jpg'),
-('Aretes de Perlas', 'Aretes con perlas naturales.', 180.00, 20, 4, 'aretes_perlas.jpg'),
-('Reloj Clásico', 'Reloj de pulsera con correa de cuero.', 950.00, 8, 5, 'reloj_clasico.jpg'),
-('Broche Flor', 'Broche decorativo en forma de flor.', 60.00, 30, 6, 'broche_flor.jpg'),
-('Tobillera de Cuentas', 'Tobillera hecha a mano con cuentas de colores.', 95.00, 18, 7, 'tobillera_cuentas.jpg'),
-('Set Infantil', 'Set de collar y pulsera para niños.', 110.00, 12, 8, 'set_infantil.jpg'),
-('Collar Personalizado', 'Collar con nombre grabado.', 110.20, 14, 9, 'collar_personalizado.jpg'),
-('Set de Joyería Elegante', 'Conjunto de collar, aretes y pulsera.', 350.00, 6, 10, 'set_joyeria_elegante.jpg'),
-('Piercing de Oro', 'Piercing de oro para oreja.', 80.00, 20, 11, 'piercing_oro.jpg'),
-('Alianza de Plata', 'Alianza de plata para compromiso.', 200.00, 10, 12, 'alianza_plata.jpg');
+('Anillo de Oro 18k', 'Anillo clásico de oro amarillo de 18 quilates.', 1200.00, 10, 1, 'anillo_01.png'),
+('Collar de Plata', 'Collar elegante de plata esterlina.', 350.00, 15, 2, 'collar_01.png'),
+('Pulsera de Acero', 'Pulsera resistente de acero inoxidable.', 75.90, 25, 3, 'pulsera_01.png'),
+('Aretes de Perlas', 'Aretes con perlas naturales.', 180.00, 20, 4, 'aretes_01.png'),
+('Reloj Clásico', 'Reloj de pulsera con correa de cuero.', 950.00, 8, 5, 'reloj_clasico.png'),
+('Broche Flor', 'Broche decorativo en forma de flor.', 60.00, 30, 6, 'broche_flor.png'),
+('Tobillera de Cuentas', 'Tobillera hecha a mano con cuentas de colores.', 95.00, 18, 7, 'tobillera_cuentas.png'),
+('Set Infantil', 'Set de collar y pulsera para niños.', 110.00, 12, 8, 'set_infantil.png'),
+('Collar Personalizado', 'Collar con nombre grabado.', 110.20, 14, 9, 'collar_02.png'),
+('Set de Joyería Elegante', 'Conjunto de collar, aretes y pulsera.', 350.00, 6, 10, 'set_joyeria_elegante.png'),
+('Piercing de Oro', 'Piercing de oro para oreja.', 80.00, 20, 11, 'pendientes_01.png'),
+('Alianza de Plata', 'Alianza de plata para compromiso.', 200.00, 10, 12, 'pendientes_02.png');
 
 INSERT INTO carrito (idcliente, creado_en) VALUES
 (1, '2025-05-10 10:00:00'),
