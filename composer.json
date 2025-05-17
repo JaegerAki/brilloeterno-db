@@ -1,0 +1,31 @@
+{
+  "name": "nagan/brilloeterno-db-setup",
+  "type": "project",
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nagan\\BrilloeternoDbSetup\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Akira",
+      "email": "naganoma15@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "scripts": {
+    "db:create": "php src/create_db.php",
+    "db:seed": "php src/seed_db.php",
+    "db:clean": "php src/clean_db.php",
+    "db:drop": "php src/drop_db.php",
+    "db:setup": [
+        "@db:drop",
+        "@db:create",
+        "@db:seed"
+    ]
+}
+}
